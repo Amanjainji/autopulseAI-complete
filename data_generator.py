@@ -162,7 +162,7 @@ class VehicleDataGenerator:
     def _generate_name(index: int) -> str:
         """Generate realistic customer names"""
         first_names = [
-            "Amaan", "Neha", "Arjun", "Priya", "Rohan",
+            "Aman", "Neha", "Arjun", "Priya", "Rohan",
             "Ishita", "Vikram", "Sneha", "Aditya", "Meera"
         ]
         last_names = [
@@ -175,7 +175,7 @@ class VehicleDataGenerator:
     @staticmethod
     def _generate_email_alias(index: int) -> str:
         first_names = [
-            "amaan", "neha", "arjun", "priya", "rohan",
+            "Aman", "neha", "arjun", "priya", "rohan",
             "ishita", "vikram", "sneha", "aditya", "meera"
         ]
         last_names = [

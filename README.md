@@ -46,8 +46,8 @@ A comprehensive Agentic AI solution for predictive vehicle maintenance that auto
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                        MASTER AGENT                          │
-│              (Main Orchestrator + UEBA Monitor)              │
+│                        MASTER AGENT                         │
+│              (Main Orchestrator + UEBA Monitor)             │
 └────────────────────────┬────────────────────────────────────┘
                          │
          ┌───────────────┼───────────────┐
@@ -56,16 +56,16 @@ A comprehensive Agentic AI solution for predictive vehicle maintenance that auto
     │  Data   │    │Diagnosis│    │Customer │
     │Analysis │    │  Agent  │    │Engage   │
     └─────────┘    └─────────┘    └─────────┘
-         │               │               │
+         │              │              │
     ┌────▼────┐    ┌────▼────┐    ┌────▼────┐
     │Schedule │    │Feedback │    │Manufact │
     │  Agent  │    │  Agent  │    │Insights │
     └─────────┘    └─────────┘    └─────────┘
          │               │               │
     ┌────▼───────────────▼───────────────▼────┐
-    │            Data Layer                     │
-    │  Customers | Vehicles | Sensors | etc.   │
-    └───────────────────────────────────────────┘
+    │            Data Layer                   │
+    │  Customers | Vehicles | Sensors | etc.  │
+    └─────────────────────────────────────────┘
 ```
 
 ## 📁 Project Structure
