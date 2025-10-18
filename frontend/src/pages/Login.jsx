@@ -192,7 +192,7 @@ export default function Login() {
                 placeholder={
                   mode === "admin"
                     ? "admin@autopulse.in"
-                    : "Aman.jain@autopulse.in"
+                    : "Amaan.jain@autopulse.in"
                 }
                 className="w-full input mt-2"
               />
