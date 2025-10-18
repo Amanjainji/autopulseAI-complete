@@ -46,7 +46,7 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://autopulse-ai-frontend.vercel.app/",  # your Vercel frontend domain
+        "https://autopulse-ai-frontend.vercel.app",  # your Vercel frontend domain
         "http://localhost:5173",                    # for local dev
     ],
     allow_credentials=True,
